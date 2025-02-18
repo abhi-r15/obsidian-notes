@@ -14,7 +14,7 @@ A **library** is a **collection of modules** that provide specific functionality
 - **Pandas** (contains modules for data handling)
 - **Requests** (modules for making HTTP requests)
 
-#### request module of urllib
+#### request module of urllib (below example is from datalore site)
 ![[Pasted image 20250216154206.png]]
 
 then took a site example from where to scrape quotes for practice
@@ -44,4 +44,29 @@ A **context manager** in Python is a construct that allows you to manage resourc
 - **Cleaner Code** → No need for explicit `try-finally` blocks.
 
 ![[Pasted image 20250216154926.png]]
+
+## cohesive manner
+
+![[Pasted image 20250216162900.png]]
+
+### using urllib in most of the cases is not suitable or convenient, module offers an api that is too low level.
+
+# request lib : http for humans
+
+#### not an inbuilt lib that is included in python natively so you need to install the lib.
+`pip install requests`
+
+###### now doing the same thing we did in the above example through importing requests library we get some additional useful methods.
+![[Pasted image 20250216164309.png]]
+
+![[Pasted image 20250216164452.png]]
+
+###### same as the previous one (urllib) can also be done in a concise manner through context manager "with" command.
+
+![[Pasted image 20250216164607.png]]
+
+using text attribute we can straight get the string without the need of decoding to utf-8.
+![[Pasted image 20250216164716.png]]
+
+we can get the response headers through the headers attribute.
 
