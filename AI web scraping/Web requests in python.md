@@ -191,6 +191,29 @@ so you just need to replace the method in the alias of imported lib
 `r.delete(url)`
 
 # POSTing data 
+![[Pasted image 20250220124426.png]]
 
+giving out data in the form of headers ,query params now a third way that is - body
+![[Pasted image 20250220124553.png]]
+![[Pasted image 20250220124652.png]]
 
+![[Pasted image 20250220124720.png]]
 
+- `form`: Contains the form data sent in the request, which is `{'key1': 'value1'}`.
+
+![[Pasted image 20250220124918.png]]
+
+###### when there are 2 key value pairs and some spaces and special characters the request lib gets the response from server in form header
+and that response when seen throught resp.request.body  attribute 
+we get the key value pairs separated by & and key and their value separated by = sign 
+
+the apostrophe and such are encoded into %27 and stuff.
+
+## the most used and correct way of sending data is through json 
+making the dictionary of data as json and then getting the response in json we get the data in the data header of server response.
+
+![[Pasted image 20250220125143.png]]
+
+![[Pasted image 20250220125326.png]]
+JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate.
+Used in interchanging web data to different formats.
