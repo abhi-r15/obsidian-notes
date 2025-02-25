@@ -33,6 +33,5 @@ and go into that environment with
 #### setting up API key in open ai site 
 2 plans that are not connected one is for tools like chat gpt for 20$ a month other is the api billing through which we can use the models and get tokens which can be used through paying up at least 5$.
 
-
-
-
+### final stretch in the environment setup after generating a private api key
+creating a *.env* file 
