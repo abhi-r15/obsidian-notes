@@ -22,7 +22,7 @@ there is also another way which is by using
 ##### 2.  subscripting
 ![[Pasted image 20250225004155.png]]
 
-getting the index and printing out the value , in this case its "u" , we can also get the index vales as negative integers starting from -1 ---> *this indicates the last value ("h" in this case)
+getting the index and printing out the value , in this case its "u" , we can also get the index vales as negative integers starting from -1 ---> *this indicates the last value ("h" in this case)*
 #### 3. **typecasting
 
 done through using functions that can typecast different data type to other type
@@ -32,4 +32,31 @@ as concatenation cant be done of the different data types
 *helpful in this scenario 
 eg.
 `int("23")`
+
+#### 4. **floor division
+using // will give out an integer type 
+as the normal division changes the data type to float 
+
+	print(6 / 3) --> 2.0
+	print(6 // 3) --> 2
+
+#### 5. **power notation(just two asterisk)**
+power notation no function call or sm just two asterisks 
+
+	 print(2**3) ---> 8
+
+#### 6. **rounding off (the round( ) function)**
+![[Pasted image 20250226235441.png]]
+
+printing these values are both quite inconvenient
+seeing as using int(num) we get the whole part and without it we get whole lots of decimals
+
+*round( ) ---> this just rounds the number to the possible nearest int value 
+30.85422393 --> 31
+
+![[Pasted image 20250226235759.png]]
+
+takes two parameters , one is the number and other is the number of digits it will to round off to.
+![[Pasted image 20250226235843.png]]
+
 
