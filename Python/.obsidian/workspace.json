@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Logical operators"
             }
+          },
+          {
+            "id": "bf79eb5a9ab9dc55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Randomization and lists.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Randomization and lists"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,21 +197,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "896b38abb5782e59",
+  "active": "bf79eb5a9ab9dc55",
   "lastOpenFiles": [
-    "assets/Pasted image 20250301234321.png",
-    "assets/Pasted image 20250301234253.png",
+    "assets/Pasted image 20250304202927.png",
     "Python.md",
     "Logical operators.md",
-    "assets/Pasted image 20250301233018.png",
-    "assets/Pasted image 20250301232422.png",
-    "assets/Pasted image 20250301232413.png",
-    "assets/Pasted image 20250301231421.png",
-    "assets/Pasted image 20250301231227.png",
-    "assets/Pasted image 20250227002350.png",
-    "assets/Pasted image 20250227002101.png",
-    "assets/Pasted image 20250226235843.png",
-    "assets/Pasted image 20250226235759.png",
+    "Randomization and lists.md",
+    "assets/Pasted image 20250304194530.png",
+    "assets/Pasted image 20250304194515.png",
+    "assets/Pasted image 20250304193801.png",
+    "assets/Pasted image 20250304193749.png",
+    "assets/Pasted image 20250304192801.png",
+    "assets/Pasted image 20250304192747.png",
+    "assets/Pasted image 20250304192734.png",
+    "assets/Pasted image 20250304191000.png",
+    "assets/Pasted image 20250304190830.png",
+    "assets/Pasted image 20250301234321.png",
     "assets",
     "New folder"
   ]
