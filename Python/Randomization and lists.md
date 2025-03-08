@@ -65,3 +65,33 @@ extend function - *adds a list to the end of a list* --- append only adds one it
 
 ![[Pasted image 20250304202927.png]]
 
+##### getting a random item from the list like this
+![[Pasted image 20250307225711.png]]
+
+it can also be done through a built in function of random module 
+
+			random.choice(sequence)
+
+*the sequence can be any sequence and list is on of them*
+
+![[Pasted image 20250307230252.png]]
+
+![[Pasted image 20250307230304.png]]
+
+this can also be achieved when the list have variable names - list1 = [ list 2, list 3 ]
+and the *list 2 and list 3* contain items inside them
+
+### **double indexing clarification
+
+the double indexing for nested lists can be interpreted through the following code below.
+![[Pasted image 20250307231006.png]]
+###### here the output is 
+![[Pasted image 20250307231025.png]]
+
+thus the 2 lists inside is for the first index 0 and 1 
+and then the next index is for the item inside that particular list
+
+## for ascii arts and different stuff to print use
+![[Pasted image 20250307231812.png]]
+
+
